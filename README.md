@@ -1,12 +1,11 @@
-### karma-typecript-library-starter
+## dude
 
-It's a minimal starter project to create browser or node library modules in typescript, test them using karma and jasmine on chrome.
+Scaffold regular copy paste things like a dude
 
-### USAGE
+### Install
 
-- `git clone https://github.com/harunurhan/karma-typescript-library-starter.git <project-name>`
-- `git remote set-url origin https://github.com/<user>/<project-name>.git`
-- Edit package.json (`name`, `version`, `description` etc.)
-- Edit `deploy` section of .travis.yml
-- Start developing
-- [`git remote add starter https://github.com/harunurhan/karma-typescript-library-starter.git`] (only to fetch upgrades)
+`npm install -g dude-cli` or `npm install --save-dev dude-cli` or `yarn add --dev dude-cli`
+
+### Usage
+
+
