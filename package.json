@@ -51,15 +51,18 @@
     "mkdirp": "^0.5.1"
   },
   "jest": {
+    "globals": {
+      "ts-jest": {
+        "tsConfigFile": "./tsconfig.test.json"
+      }
+    },
     "transform": {
       "^.+\\.ts?$": "ts-jest"
     },
     "testRegex": "(/(__tests__|e2e)/.*|(\\.|/)(test|spec))\\.(ts)$",
     "moduleFileExtensions": [
       "ts",
-      "tsx",
       "js",
-      "jsx",
       "json",
       "node"
     ]
