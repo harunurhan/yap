@@ -10,13 +10,13 @@ before_install:
 addons:
   chrome: stable
 before_deploy:
-- npm run build
+- yarn build
 deploy:
   provider: npm
   email: harunurhan17@gmail.com
   skip_cleanup: true
   api_key:
-    secure: PUT_SECURE_HERE
+    secure: MkmZ3aswBIoXknbjkdWYogogWeDVWrxNxOteuf0TEFvt7KIPjB5Up1e3EiyUwHjNRiNTC9FnB617Yaj84bVgtMVwLEKPUNdBqK9WAawV2V1YN2lHlYboK6cZM0jdOG3PB9gtJu3MHXhdq8tGY72ZfIa1QMhVe+2DBZY6sc5jZr5WKtemNSPI3ptEdxTdrVHK9lIw1KtICGAiB9YZzK/Crd7OtlEP53OeKjY8D7oWvtLT8rqR7z0wsP+yvlY6gGqBfKg4sAkpbGoAhseJdHpPJUKvoK0PpmZr/8GUAaEbdIrUlRC1odfYEnUnbouOawyWlRBRjm5A9REiZpqKzNREBPjN64wlxU79L0E5kJOiIr7sk42Po9YTDkQEud/+wfvFlv5LT2cf6Dt2FJFQb1Gr+cS5hkibRYlQpMotVOrwujYLCifVdN9OJPUDAVMynnIuP4uSR4c3NJ4a9frkygFIAbAMjEFNLQCWM7vsLp1cbezMAMU1AO5Qccx0AW2fZyM36GlnAadMfTI+YKWxQM4LpWsM4f9H9oZz0ZR7mrfS0ftyzl6a9ju/+tqQjz1OR+BClaB9Jvrox0xzxJPqt7GNkqBZfQMEKPvcCOaZg+9g/BJxhiK0bzzhTSkeHowk57jQTg7aTiwnLQGYxdA3OZXUTnmtNG0jzXkNull9qMZ9/BI=
   on:
     tags: true
     repo: harunurhan/yap
