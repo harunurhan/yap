@@ -33,3 +33,11 @@ export async function getFilePathsInDir(dir: string): Promise<string[]> {
   const onlyFilePaths = await asyncFilter(resolvedPaths, isFile);
   return onlyFilePaths;
 }
+
+export function requireMaybeExistentJson(filePath: string): { [prop: string]: any } {
+  try {
+    return require(filePath);
+  } catch (error) {
+    return {};
+  }
+}

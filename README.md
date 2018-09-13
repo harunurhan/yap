@@ -8,7 +8,7 @@ Scaffold daily code copy paste
 
 ### TODO
 
-- [ ] add more tests
-- [ ] support rc file to in order to avoid passing options everytime
+- [ ] add more tests (e2e)
+- [x] support rc file to in order to avoid passing options everytime
 - [ ] add usage section to readme
 - [ ] publish first beta version
