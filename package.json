@@ -1,9 +1,9 @@
 {
-  "name": "dude-cli",
+  "name": "yap-cli",
   "version": "0.0.0",
-  "description": "Scaffold regular copy paste things like a dude",
+  "description": "Scaffold daily code copy paste",
   "bin": {
-    "dude": "dist/index.js"
+    "yap": "dist/index.js"
   },
   "scripts": {
     "build": "tsc",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/harunurhan/dude.git"
+    "url": "git+ssh://git@github.com/harunurhan/yap.git"
   },
   "keywords": [
     "scaffolding",
@@ -28,9 +28,9 @@
   "author": "@harunurhan <harunurhan17@gmail.com> (https://github.com/harunurhan)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/harunurhan/dude/issues"
+    "url": "https://github.com/harunurhan/yap/issues"
   },
-  "homepage": "https://github.com/harunurhan/dude#readme",
+  "homepage": "https://github.com/harunurhan/yap#readme",
   "devDependencies": {
     "@types/commander": "^2.12.2",
     "@types/ejs": "^2.6.0",
@@ -54,7 +54,7 @@
     "transform": {
       "^.+\\.ts?$": "ts-jest"
     },
-    "testRegex": "(/(__tests__|e2e)/.*|(\\.|/)(test|spec))\\.(js)$",
+    "testRegex": "(/(__tests__|e2e)/.*|(\\.|/)(test|spec))\\.(ts)$",
     "moduleFileExtensions": [
       "ts",
       "tsx",

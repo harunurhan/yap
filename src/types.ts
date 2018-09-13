@@ -1,6 +1,6 @@
-export interface DudeOptions {
+export interface YapOptions {
   baseDir: string;
   scaffoldsDir: string;
 }
 
-export type DudeArgs = [string, string];
+export type YapArgs = [string, string];

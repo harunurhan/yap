@@ -3,14 +3,14 @@ import * as path from 'path';
 
 import context from './context';
 import { createDirsUnlessExist, getFilePathsInDir, readFile, writeFile } from './fs';
-import { DudeArgs, DudeOptions } from './types';
+import { YapArgs, YapOptions } from './types';
 
 const SLASH = '@slash';
 const FILE_NAME_PLACEHOLDER = '__name__';
 const ESJ_OPTIONS = { async: true, context };
 const FILE_ENCODING = 'utf8';
 
-export default async function ([scaffold, name]: DudeArgs, { scaffoldsDir, baseDir }: DudeOptions): Promise<void> {
+export default async function yap([scaffold, name]: YapArgs, { scaffoldsDir, baseDir }: YapOptions): Promise<void> {
   const scaffoldDir = path.resolve(scaffoldsDir, scaffold);
   const scaffoldFilePaths = await getFilePathsInDir(scaffoldDir);
   await Promise.all(

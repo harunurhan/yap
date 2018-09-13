@@ -1,7 +1,7 @@
 import * as program from 'commander';
 
-import runDude from './dude';
-import { DudeArgs } from './types';
+import yap from './yap';
+import { YapArgs } from './types';
 
 // TODO: add args and options validations based on ./types
 program
@@ -10,5 +10,5 @@ program
   .arguments('<scaffold> <name>')
   .action(() => {
     const { scaffoldsDir, baseDir } = program;
-    runDude(program.args as DudeArgs, { scaffoldsDir, baseDir });
+    yap(program.args as YapArgs, { scaffoldsDir, baseDir });
   }).parse(process.argv);

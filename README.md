@@ -1,11 +1,14 @@
-## dude
+## yap
 
-Scaffold regular copy paste things like a dude
+Scaffold daily code copy paste
 
 ### Install
 
-`npm install -g dude-cli` or `npm install --save-dev dude-cli` or `yarn add --dev dude-cli`
+`npm install -g yap-cli` or `npm install --save-dev yap-cli` or `yarn add --dev yap-cli`
 
-### Usage
+### TODO
 
-
+- [ ] add more tests
+- [ ] support rc file to in order to avoid passing options everytime
+- [ ] add usage section to readme
+- [ ] publish first beta version

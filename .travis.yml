@@ -19,5 +19,5 @@ deploy:
     secure: PUT_SECURE_HERE
   on:
     tags: true
-    repo: harunurhan/dude
+    repo: harunurhan/yap
     branch: master
