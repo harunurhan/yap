@@ -12,3 +12,6 @@ Scaffold daily code copy paste
 - [x] support rc file to in order to avoid passing options everytime
 - [ ] add usage section to readme
 - [ ] publish first beta version
+- [ ] relative dir option that will be joined to base dir before in generated file path
+- [ ] multiple scaffold paths
+- [ ] error handling when scaffold is not there
